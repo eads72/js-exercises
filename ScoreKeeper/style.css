@@ -1,0 +1,26 @@
+#main-container{
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    background-color: #c7d8fd;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+h1{
+    padding-left: 50px;
+}
+h2{
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: #a0afcf;
+    margin: 0px;
+}
+.winner {
+    color: green;
+}
+
+.loser{
+    color: red;
+}
