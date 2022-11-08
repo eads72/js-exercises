@@ -1,7 +1,7 @@
 #main-container{
     margin: 0 auto;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     background-color: #c7d8fd;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -9,13 +9,41 @@
 }
 
 h1{
-    padding-left: 50px;
+    padding-left: 20px;
 }
 h2{
     padding: 20px;
     padding-bottom: 10px;
-    background-color: #a0afcf;
+    background-color: #d1daf3;
     margin: 0px;
+}
+#selection-p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+button{
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: -2px;
+    border-radius: 5px;
+}
+button:hover{
+    transition: 7ms;
+    box-shadow: inset 0 0 10px #ffffff;
+}
+
+#p1-button{
+    background-color: #7842e4;
+}
+#p2-button{
+    background-color: #e4a342;
+}
+#reset{
+    background-color: #e44268;
 }
 .winner {
     color: green;
